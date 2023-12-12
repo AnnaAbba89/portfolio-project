@@ -73,15 +73,40 @@ p {
   padding: 120px 60px;
 }
 
+.profile-photo {
+  border-radius: 40px;
+}
+
+.about-section {
+  padding: 160px 0;
+}
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.about-section h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+
+.about-section-content {
+  margin: 30px;
+}
+
 @media (max-width: 690px) {
   h1 {
     font-size: 44px;
   }
   h2 {
-    font-size: 44px;
+    font-size: 36px;
   }
   .hero {
     padding: 80px 20px;
+  }
+  .about-section {
+    text-align: center;
+    padding: 0;
   }
   .project-description {
     padding: 0;
